@@ -227,8 +227,18 @@ main{
     padding: 20px;
     
 }
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    background: #f1f5f9;
+    box-sizing: content-box;
+    gap: 0.5px;
+}
 
 .card2 {
+    display: flex;
     max-width: 500px;
     margin: 0 auto;
     padding: 20px;
@@ -257,8 +267,19 @@ main{
     height: 100%;
 }
 
+.card1 {
+    display: flex;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
 
 .card3 {
+    display: flex;
     max-width: 500px;
     margin: 0 auto;
     padding: 20px;
@@ -269,13 +290,16 @@ main{
 }
 
 .card2,
- .card3 {
-    display: flexbox;
+.card3,
+.card1 {
+    display:flex;
     flex-direction: column;
     margin-bottom: 20px;
     max-width: 500px;
     margin-bottom: 20px;
     padding-right: 40px;
+  
+    
 }
 
 .employee-mgt h2 {
